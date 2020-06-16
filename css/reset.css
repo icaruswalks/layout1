@@ -16,10 +16,7 @@ figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, 
     background: transparent;
 }
 
-.header {
-    width: 100%;
-    
-}
+
 
 
 .header {
@@ -27,47 +24,46 @@ figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, 
     height: 50px;
     background-color: teal;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     border: 0;
 }
 
 #wrap .header h1 {
     font-size: 25px;
     font-weight: normal;
+    margin: 5px;
+    padding: 5px;
     display: inline;
     vertical-align: baseline;
-    padding-top: 20px;
-    padding-left: 10px;
+    
     color: white;
 }
 
 
 
-.line { width: 100%;  }
+.line { width: 100%; margin-top: 10px; padding: 10px; box-sizing: border-box; }
 .pic { float: left; }
 .pic {
-    margin: 12px;
-    padding: 0;
+    margin: 8px;
     width: 31%;
-    /* height: 320px; */
     background-color: white;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
 }
 .line img { width: 100%;}
-.line2 { content: ""; display: table; clear: both; width: 100%; }
+.line2 { content: ""; display: table; clear: both; width: 100%; margin-top: 10px; padding: 10px; box-sizing: border-box;}
 .pic1 { float: left;}
 .pic1 {
-    margin: 12px;
-    padding: 0;
+    margin: 8px;
     width: 31%;
-    /* height: 320px; */
     background-color: white;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
 }
 
 .line2 img { width: 100%;}
 
-.line .pic p { margin-left: 10px; margin-top: 5px; font-size: 18px;}
-.line2 .pic1 p { margin-left: 10px; margin-top: 5px; font-size: 18px;}
+.line .pic p { margin-left: 10px; margin-top: 5px; }
+.line2 .pic1 p { margin-left: 10px; margin-top: 5px; }
 
 
